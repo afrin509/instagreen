@@ -2,7 +2,7 @@ import React, { useState, useEffect} from 'react'
 import './App.css';
 import Post from "./Post";
 import PostThumb from "./PostThumb";
-import { db, auth } from "./firebase";
+import { db, auth } from "./firebase.js";
 import {makeStyles } from '@material-ui/core/styles';
 import {Modal} from '@material-ui/core';
 import {Button, Input} from '@material-ui/core';
